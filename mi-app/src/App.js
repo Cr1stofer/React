@@ -21,6 +21,7 @@ function App() {
       <body>
         <Menu />
         <Slide />
+        <p className="display-4">Pruebas con bootstrap en react</p>
         <Body />
         <Funciones />
       </body>
