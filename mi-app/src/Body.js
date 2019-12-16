@@ -2,6 +2,8 @@ import React from 'react';
 
 import {datos} from './datos.json'
 
+import $ from 'jquery';
+
 import './App.css';
 
 class Body extends React.Component {
@@ -14,13 +16,17 @@ class Body extends React.Component {
   	
   }
 
+  //mi primer alert con react
+  Mialerta() {
+    alert("Holaaaa soy tu primer alert con react!!");
+  }
+
   render() {
   	const datos = this.state.datos.map((datos, i) => {
   		return(
-            <div className="row">
-                <div className="col-lg-6">
+  			    <div>
                   <div className="card-body">
-	                  <h2 className="card-title"> 
+	                  <h2 className="card-name"> 
 	                      {datos.Nombre}
 	                  </h2>
 	                  <p className="card-text">
@@ -32,17 +38,16 @@ class Body extends React.Component {
 		               <p className="card-text">
 		                  {datos.Descripcion}
 		               </p>
+		               <buttom type="button" className="btn btn-outline-primary" onClick={this.Mialerta}>mas info</buttom>
 		            </div>  
-		         </div>    
-	               
-            </div>
+		        </div>     
   			)
   	})
 
   	return(
-         <div className="box">
-             {datos}
-         </div>
+		         <div className="box">
+		             {datos}
+		         </div>
   		)
     
   }

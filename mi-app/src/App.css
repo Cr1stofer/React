@@ -28,6 +28,11 @@
   color: #61dafb;
 }
 
+.Slide{
+  background-color: #490b04;
+  width: 100%;
+  height: 300px;
+}
 
 /*Css del slide*/
 .Slide > p{
@@ -39,10 +44,20 @@
 
 }
 
-.row{
-  padding: 0px;
-  margin: 0px;
+
+
+/*estilos del  body*/
+
+.card-body{
+  border: 1px solid black;
+  margin:5px;
 }
+
+.box{
+  display: inline-flex;
+  width: 100%;
+}
+
 
 @keyframes App-logo-spin {
   from {
