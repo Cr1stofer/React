@@ -40,8 +40,6 @@ export default function Menu() {
           </ul>
         </nav>
 
-        <hr />
-
         {/*
           A <Switch> looks through all its children <Route>
           elements and renders the first one whose path
