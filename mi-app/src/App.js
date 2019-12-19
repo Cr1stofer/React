@@ -8,10 +8,6 @@ import './App.css';
 
 //importo todo el contenido de la web
 import Menu from './Menu.js'
-import Slide from './Slide.js'
-import Body from './Body.js'
-import Funciones from './Funciones.js'
-import ContenidoA from './ContenidoA.js'
 
 function App() {
   return (
@@ -19,14 +15,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
-      <body>
+      <nav>
         <Menu />
-        <Slide />
-        <p className="display-4">Pruebas con bootstrap en react</p>
-         <Body />
-         <ContenidoA />
-       
-      </body>
+      </nav>
     </div>
   );
 }

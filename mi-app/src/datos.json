@@ -4,7 +4,8 @@
 			"Nombre" : "Cristopfer",
 			"Pais": "Guatemala",
 			"Codigo": "001",
-			"Descripcion" : "Lorem ipsum lorem ipsum, Lorem ipsum lorem ipsum"
+			"Descripcion" : "Lorem ipsum lorem ipsum, Lorem ipsum lorem ipsum",
+			"Color": "#ff0000"
 		},
 		{
 			"Nombre" : "Juan",

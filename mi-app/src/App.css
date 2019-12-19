@@ -1,3 +1,17 @@
+/*colors*/
+.green{
+  color: green;
+
+}
+
+.red{
+  color: red;
+}
+
+.blue{
+  color: blue;
+}
+
 .App {
   text-align: center;
 }
@@ -36,12 +50,19 @@
 
 /*Css del slide*/
 .Slide > p{
-  position: absolute;
-  top: 30%;
-  left: 25%;
   color: white;
   font-size: 60px;
+  line-height: 5;
 
+}
+
+.navbar , ul > li{
+  padding: 10px;
+  color: white;
+}
+
+.navbar , ul, li > a{
+  color: white;
 }
 
 

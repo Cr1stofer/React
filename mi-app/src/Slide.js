@@ -1,13 +1,13 @@
 import React from 'react';
-import $ from 'jquery';
+
 import './App.css';
 
 class Slide extends React.Component {
 
   render(){
   	return(
-   <div className="Slide">
-      <p>Mi slide con React en proceso...</p>
+   <div className="Slide text-center">
+      <p>Mi slide con React</p>
   	</div>
   	)
   }

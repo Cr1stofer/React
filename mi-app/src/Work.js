@@ -6,7 +6,7 @@ import $ from 'jquery';
 
 import './App.css';
 
-class Body extends React.Component {
+class Work extends React.Component {
   //creo mi constructor
   constructor(){
   	super();
@@ -53,4 +53,4 @@ class Body extends React.Component {
   }
 }
 
-export default Body;
+export default Work;
