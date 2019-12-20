@@ -37,6 +37,7 @@ class Work extends React.Component {
 		                </p>
 		               <p className="card-text">
 		                  {datos.Descripcion}
+                     
 		               </p>
 		               <buttom type="button" className="btn btn-outline-primary" onClick={this.Mialerta}>mas info</buttom>
 		            </div>  

@@ -79,6 +79,23 @@
   width: 100%;
 }
 
+.Galeria-2 > img{
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+
+
+.m-container{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.pay-color{
+  color: red;
+  font-weight: bold;
+  font-size: 25px;
+}
 
 @keyframes App-logo-spin {
   from {

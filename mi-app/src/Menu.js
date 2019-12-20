@@ -1,13 +1,10 @@
 import React from 'react';
 
 import Operaciones from './Operaciones'
-
 import Work from './Work'
-
 import Slide from './Slide'
-
+import Slidepagos from './Slidepagos'
 import Galeria from './Galeria'
-
 import Contacto from './Contacto'
 
 import { render } from 'react-dom'
@@ -73,6 +70,7 @@ function Home() {
   return (
     <div>
       <Slide />
+      <Slidepagos />
     </div>
   );
 }
